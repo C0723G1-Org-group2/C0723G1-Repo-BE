@@ -133,7 +133,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Thể loại
+                            Quản lý thể loại
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Thể loại 1</a></li>
@@ -146,10 +146,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Đang theo dõi</a>
+                        <a class="nav-link" href="#">Quản lý độc giả</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Phiếu mượn của tôi</a>
+                        <a class="nav-link" href="#">Quản lý phiếu mượn</a>
                     </li>
                 </ul>
             </div>
@@ -233,6 +233,7 @@
             </form>
         </div>
     </div>
+</div>
 <%--    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">--%>
 <%--        <div class="modal-dialog">--%>
 <%--            <form action="/borrowcard?action=delete" method="post">--%>

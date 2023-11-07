@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/casenhom/book-library" />
+    <file type="web" url="file://$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/book-library" />
+    <file type="web" url="file://$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/BorrowCard" />
+    <file type="web" url="file://$PROJECT_DIR$/casenhom/case-4_again" />
+    <file type="web" url="file://$PROJECT_DIR$/casenhom/CRUD" />
+  </component>
+</project>

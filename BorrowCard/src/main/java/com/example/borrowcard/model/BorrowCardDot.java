@@ -6,6 +6,8 @@ public class BorrowCardDOT {
     private String endDate;
     private String bookName;
     private String userName;
+    private int bookId;
+    private int idAccount;
 
     public BorrowCardDOT() {
     }
@@ -16,6 +18,16 @@ public class BorrowCardDOT {
         this.endDate = endDate;
         this.bookName = bookName;
         this.userName = userName;
+    }
+
+    public BorrowCardDOT(int id, String startDate, String endDate, String bookName, String userName, int bookId, int idAccount) {
+        this.id = id;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.bookName = bookName;
+        this.userName = userName;
+        this.bookId = bookId;
+        this.idAccount = idAccount;
     }
 
     public int getId() {
@@ -56,5 +68,21 @@ public class BorrowCardDOT {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public int getIdAccount() {
+        return idAccount;
+    }
+
+    public void setIdAccount(int idAccount) {
+        this.idAccount = idAccount;
     }
 }
