@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>HASH TECHIE OFFICIAL</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<section>
+  <div class="form-box form-signup">
+    <div class="form-value">
+      <form action="">
+        <h2>Sign Up</h2>
+        <div class="inputbox">
+          <ion-icon name="person-outline"></ion-icon>
+          <input type="text" required>
+          <label>Name</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="mail-outline"></ion-icon>
+          <input type="text" required>
+          <label>User Name</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input type="password" required>
+          <label>Confirm Password</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="location-outline"></ion-icon>
+          <input type="text" required>
+          <label>Address</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="call-outline"></ion-icon>
+          <input type="tel" required>
+          <label>Phone</label>
+        </div>
+        <div class="inputbox">
+          <input type="date" required>
+          <label>Birthday</label>
+        </div>
+        <button>Sign Up</button>
+        <div class="register">
+          <p>Already have an account? <a href="#" class="login-link">Log In</a></p>
+        </div>
+        <div class="error-message" style="display:none;">Username already exists. Please choose another one.</div>
+      </form>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="form-box form-login" style="display: none;">
+    <div class="form-value">
+      <form action="">
+        <h2>Login</h2>
+        <div class="inputbox">
+          <ion-icon name="mail-outline"></ion-icon>
+          <input type="text" required>
+          <label >Username</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input type="password" required>
+          <label >Password</label>
+        </div>
+        <div class="forget">
+          <label ><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+        </div>
+        <button>Log in</button>
+        <div class="register">
+          <p>Don't have a account <a href="#" class="signup-link">Register</a></p>
+        </div>
+        <div class="error-message" style="display:none;">Invalid username or password. Please try again.</div>
+      </form>
+    </div>
+  </div>
+</section>
+<div class="wrapper">
+  <div class="signup-form">
+    <!-- Form đăng ký -->
+  </div>
+  <div class="login-form">
+    <!-- Form đăng nhập -->
+  </div>
+  <div class="icon-close">X</div>
+</div>
+<button class="btnLogin-popup">Show Login Form</button>
+<a href="#" class="login-link">Log In</a>
+<a href="#" class="register-link">Register</a>
+<script>
+  const wrapper = document.querySelector('.wrapper');
+  const loginLink = document.querySelector('.login-link');
+  const registerLink = document.querySelector('.register-link');
+  const btnPopup = document.querySelector('.btnLogin-popup');
+  const iconClose = document.querySelector('.icon-close');
+  registerLink.addEventListener('click', () => {
+    wrapper.classList.add('active');
+  });
+  loginLink.addEventListener('click', () => {
+    wrapper.classList.remove('active');
+  });
+  btnPopup.addEventListener('click', () => {
+    wrapper.classList.add('active-popup');
+  });
+  iconClose.addEventListener('click', () => {
+    wrapper.classList.remove('active-popup');
+  });
+
+
+
+
+
+
+
+
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

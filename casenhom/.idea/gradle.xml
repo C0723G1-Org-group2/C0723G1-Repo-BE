@@ -1,49 +1,55 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/C0723G1-Repo-BE/BorrowCard" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/BorrowCard" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/C0723G1-Repo-BE/BorrowCard" />
+            <option value="$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/BorrowCard" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/C0723G1-Repo-BE/book-library" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/book-library" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/C0723G1-Repo-BE/book-library" />
+            <option value="$PROJECT_DIR$/casenhom/C0723G1-Repo-BE/book-library" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/CRUD" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/casenhom/CRUD" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/CRUD" />
+            <option value="$PROJECT_DIR$/casenhom/CRUD" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/book-library" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/casenhom/book-library" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/book-library" />
+            <option value="$PROJECT_DIR$/casenhom/book-library" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/case-4_again" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/casenhom/case-4_again" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/case-4_again" />
+            <option value="$PROJECT_DIR$/casenhom/case-4_again" />
           </set>
         </option>
       </GradleProjectSettings>

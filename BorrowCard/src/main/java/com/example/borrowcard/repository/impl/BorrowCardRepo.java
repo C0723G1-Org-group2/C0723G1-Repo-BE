@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BorrowCardRepo implements IBorrowCardRepo {
-    private final String SELECT_ALL = "select bc.borrow_card_id, bc.start_date, bc.end_date, b.book_name, a.username" +
+    private final String SELECT_ALL = "select bc.borrow_card_id, bc.start_date, bc.end_date, b.book_name, a.username, b.book_id, a.id_account" +
             "            from borrow_card bc" +
             "            join book b on b.book_id = bc.book_id" +
             "            join account a on a.id_account = bc.id_account;";
@@ -77,7 +77,9 @@ public class BorrowCardRepo implements IBorrowCardRepo {
                 String endDate = resultSet.getString("end_date");
                 String bookName = resultSet.getString("book_name");
                 String userName = resultSet.getString("username");
-                BorrowCardDOT borrowCardDOT = new BorrowCardDOT(id, startDate, endDate, bookName, userName);
+                int bookId = resultSet.getInt("book_id");
+                int idAccount = resultSet.getInt("id_account");
+                BorrowCardDOT borrowCardDOT = new BorrowCardDOT(id, startDate, endDate, bookName, userName, bookId, idAccount);
                 borrowCardDOTList.add(borrowCardDOT);
             }
         } catch (SQLException e) {

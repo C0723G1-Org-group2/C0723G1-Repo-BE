@@ -75,6 +75,8 @@ public class BorrowCardServlet extends HttpServlet {
 
     private void showAddForm(HttpServletRequest req, HttpServletResponse resp) {
         try {
+            List<BorrowCardDOT> borrowCardDOTList = borrowCardService.selectAllBorrowCard();
+            req.setAttribute("borrowCardDOTList", borrowCardDOTList);
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/borrow_card/create.jsp");
             requestDispatcher.forward(req, resp);
         } catch (ServletException | IOException e) {
