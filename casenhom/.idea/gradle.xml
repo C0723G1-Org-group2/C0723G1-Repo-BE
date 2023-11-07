@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/C0723G1-Repo-BE/BorrowCard" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/C0723G1-Repo-BE/BorrowCard" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/C0723G1-Repo-BE/book-library" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/C0723G1-Repo-BE/book-library" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CRUD" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CRUD" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/book-library" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/book-library" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/case-4_again" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/case-4_again" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
