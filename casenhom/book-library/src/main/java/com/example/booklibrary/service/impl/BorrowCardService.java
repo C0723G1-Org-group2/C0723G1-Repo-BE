@@ -1,0 +1,44 @@
+package com.example.booklibrary.service.impl;
+
+import com.example.booklibrary.model.BorrowCard;
+import com.example.booklibrary.dto.BorrowCardDOT;
+import com.example.booklibrary.repository.IBorrowCardRepo;
+import com.example.booklibrary.repository.impl.BorrowCardRepo;
+import com.example.booklibrary.service.IBorrowCardService;
+
+import java.sql.SQLException;
+import java.util.List;
+
+public class BorrowCardService implements IBorrowCardService {
+    private final IBorrowCardRepo borrowCardRepo = new BorrowCardRepo();
+
+    @Override
+    public boolean insertBorrowCard(BorrowCard borrowCard) throws SQLException {
+        return borrowCardRepo.insertBorrowCard(borrowCard);
+    }
+
+    @Override
+    public BorrowCard selectBorrowCard(int id) {
+        return borrowCardRepo.selectBorrowCard(id);
+    }
+
+    @Override
+    public List<BorrowCardDOT> selectAllBorrowCard() {
+        return borrowCardRepo.selectAllBorrowCard();
+    }
+
+    @Override
+    public boolean deleteBorrowCard(int id) throws SQLException {
+        return borrowCardRepo.deleteBorrowCard(id);
+    }
+
+    @Override
+    public boolean updateBorrowCard(BorrowCard borrowCard) throws SQLException {
+        return false;
+    }
+
+    @Override
+    public List<BorrowCardDOT> searchByUsername(String country) {
+        return null;
+    }
+}
